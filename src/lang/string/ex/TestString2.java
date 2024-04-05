@@ -1,6 +1,9 @@
 package lang.string.ex;
 
 public class TestString2 {
+    /*
+     length() 를 사용해서 arr 배열에 들어있는 모든 문자열의 길이 합 구하기
+     */
     public static void main(String[] args) {
 
         String[] arr = {"hello", "java", "jvm", "spring", "jpa"};
