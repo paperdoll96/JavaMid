@@ -34,5 +34,13 @@ public class WrapperClassMain {
             /*
                 *참고 래퍼클래스는 객체를 그대로 출력해도 내부에 있는 값이 문자로 출력되도록 toString()을 재정의 함 !
              */
+
+        /*
+            추가사항 - 기본형을 래퍼클래스로 변환하거나 또는 래퍼 클래스를 기본형으로 변환하는일이 자주 발생해서
+                        오토 박싱, 오토 언박싱 기능을 제공함!
+
+                        Integer boxedValue = value;
+                        int unboxedValue = boxedValue;
+         */
     }
 }
