@@ -7,6 +7,7 @@ public enum Grade {
 
     // 할인률 필드 추가
     Grade(int discountPercent) {
+
         this.discountPercent = discountPercent;
     }
 
