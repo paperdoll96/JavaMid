@@ -25,7 +25,7 @@ public class NetworkServiceV5 {
             - 모든 리소스가 제대로 닫히도록 보장!
             - 코드 간결설 및 가독성 향상! ( 명시적인 close() 호출이 필요없어 코드가 더 간결하고 읽기 쉬워짐)
             - 스코프 범위 한정 . [예를 들어 리소스로 사용되는 client변수의 스코프가  try 블럭 안으로 한정됨!
-            - 조금 더 빠른 자원 해제!
+            - 조금 더 빠른 자원 해제! [ 기존에는 try catch finally로 catch 이후에 자원을 반납했음! 하지만 Try with Reosureces는 try가 끝나면 즉시 close()호출!
          */
     }
 }
